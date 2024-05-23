@@ -1,0 +1,6 @@
+{
+  "homepage": "http://K0TtiNk.github.io/Summer-Project",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
