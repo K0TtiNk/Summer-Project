@@ -1,38 +1,38 @@
-.App {
+.body{
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  background-color:aliceblue;
+  padding: 10px;
   text-align: center;
+  font-size: 24px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.boss {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  height: 100%;
+
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  flex: 0 0 20%;
+  
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.map1 {
+
+  flex: 0 0 80%; 
+  margin-left: 20%;
+
+}
+.block {
+  justify-content: space-between; /* Равное распределение между элементами */
+
+  width: 100px; /* задаем ширину блока */
+  height: 100px; /* задаем высоту блока */
+  background-color: #000000; /* цвет фона */
+  margin: 0 10px; /* расстояние между блоками по горизонтали */
 }
