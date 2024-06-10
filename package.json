@@ -1,6 +1,8 @@
 {
   "homepage": "http://K0TtiNk.github.io/Summer-Project",
   "dependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "papaparse": "^5.4.1",
+    "react-yandex-maps": "^4.6.0"
   }
 }

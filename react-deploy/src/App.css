@@ -10,29 +10,11 @@
 }
 
 .boss {
-  display: flex;
   width: 100%;
   height: 100%;
-
-}
-
-nav {
-  flex: 0 0 20%;
-  
-
 }
 
 .map1 {
-
-  flex: 0 0 80%; 
-  margin-left: 20%;
-
-}
-.block {
-  justify-content: space-between; /* Равное распределение между элементами */
-
-  width: 100px; /* задаем ширину блока */
-  height: 100px; /* задаем высоту блока */
-  background-color: #000000; /* цвет фона */
-  margin: 0 10px; /* расстояние между блоками по горизонтали */
+  width: 100%;
+  height: 100%;
 }
